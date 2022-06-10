@@ -12,7 +12,8 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World!";
+        System.out.println("Log de microservicio");
+        return "Hello World --- Clara -- 10/06/2022!";
     }
 
     public static void main(String[] args) {
